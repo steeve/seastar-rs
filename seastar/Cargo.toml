@@ -1,0 +1,9 @@
+[package]
+name = "seastar"
+version = "0.1.0"
+authors = ["Steeve Morin <steeve.morin@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc="0.2"
+seastar-sys={ path = "../seastar-sys" }

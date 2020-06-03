@@ -1,0 +1,14 @@
+[package]
+name = "seastar-sys"
+version = "0.1.0"
+authors = ["Steeve Morin <steeve.morin@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc="0.2"
+
+[build-dependencies]
+cc = "1.0.46"
+pkg-config="0.3.16"
